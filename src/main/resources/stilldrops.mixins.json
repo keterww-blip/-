@@ -1,0 +1,16 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "org.tdddd.stilldrops.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "stilldrops.refmap.json",
+  "mixins": [
+    "EntityTeleportMixin",
+    "EpcaConversionUtilMixin",
+    "EpcaCothEffectMixin",
+    "EpcaIntegrationProcessMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
